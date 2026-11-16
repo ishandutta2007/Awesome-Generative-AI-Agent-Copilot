@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="420" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="badge-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Animated Glow Filters -->
+    <filter id="glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="24" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glow-purple" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .bg { fill: url(#bg-grad); }
+    .grid { stroke: #1e293b; stroke-width: 1; stroke-opacity: 0.35; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 46px; fill: url(#title-grad); }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 21px; fill: #cbd5e1; }
+    .tagline { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 15px; fill: #94a3b8; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #93c5fd; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #f8fafc; }
+    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; fill: #94a3b8; }
+    
+    @keyframes float-slow {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-14px) scale(1.04); }
+    }
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.28; }
+      50% { opacity: 0.58; }
+    }
+    @keyframes orbit-cw {
+      from { transform: rotate(0deg) translateX(42px) rotate(0deg); }
+      to { transform: rotate(360deg) translateX(42px) rotate(-360deg); }
+    }
+    @keyframes pulse-dot {
+      0%, 100% { r: 3.5px; opacity: 0.4; }
+      50% { r: 6.5px; opacity: 1; }
+    }
+
+    .anim-orb-1 { animation: pulse-glow 7s ease-in-out infinite alternate; }
+    .anim-orb-2 { animation: pulse-glow 9s ease-in-out infinite alternate 2s; }
+    .anim-card-1 { animation: float-slow 6s ease-in-out infinite; }
+    .anim-card-2 { animation: float-slow 7s ease-in-out infinite 1.5s; }
+    .anim-card-3 { animation: float-slow 6.5s ease-in-out infinite 3s; }
+    .anim-pulse-1 { animation: pulse-dot 2.5s ease-in-out infinite; }
+    .anim-pulse-2 { animation: pulse-dot 3.2s ease-in-out infinite 1s; }
+    .anim-pulse-3 { animation: pulse-dot 2.8s ease-in-out infinite 1.8s; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" class="bg" rx="16" />
+
+  <!-- Background Technical Grid -->
+  <g class="grid">
+    <path d="M0,60 H1200 M0,120 H1200 M0,180 H1200 M0,240 H1200 M0,300 H1200 M0,360 H1200" />
+    <path d="M100,0 V420 M200,0 V420 M300,0 V420 M400,0 V420 M500,0 V420 M600,0 V420 M700,0 V420 M800,0 V420 M900,0 V420 M1000,0 V420 M1100,0 V420" />
+  </g>
+
+  <!-- Dynamic Glowing Background Orbs (Non-obstructing, positioned in corners & margins) -->
+  <circle cx="180" cy="90" r="140" fill="#3b82f6" filter="url(#glow-cyan)" class="anim-orb-1" />
+  <circle cx="1060" cy="310" r="160" fill="#8b5cf6" filter="url(#glow-purple)" class="anim-orb-2" />
+  <circle cx="1000" cy="70" r="100" fill="#06b6d4" filter="url(#glow-cyan)" class="anim-orb-1" />
+
+  <!-- Dynamic Flow Lines & Visual Architecture (Right Side) -->
+  <g opacity="0.65">
+    <path d="M820,110 Q940,90 1010,130 T1130,190" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6,6" />
+    <path d="M800,290 Q920,330 1020,280 T1140,260" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="6,6" />
+    <circle cx="820" cy="110" fill="#38bdf8" class="anim-pulse-1" />
+    <circle cx="1010" cy="130" fill="#818cf8" class="anim-pulse-2" />
+    <circle cx="1130" cy="190" fill="#c084fc" class="anim-pulse-3" />
+  </g>
+
+  <!-- Interactive Ecosystem Cards (Floating subtly at right side) -->
+  <g class="anim-card-1" transform="translate(860, 60)">
+    <rect width="250" height="66" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#3b82f6" stroke-width="1.2" />
+    <circle cx="30" cy="33" r="14" fill="#2563eb" fill-opacity="0.3" stroke="#60a5fa" stroke-width="1.5" />
+    <text x="30" y="38" text-anchor="middle" fill="#60a5fa" font-size="14">⚡</text>
+    <text x="56" y="29" class="card-title">Autonomous Agents</text>
+    <text x="56" y="47" class="card-desc">Self-Hosted &amp; Multi-Agent Workflows</text>
+  </g>
+
+  <g class="anim-card-2" transform="translate(890, 150)">
+    <rect width="250" height="66" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#8b5cf6" stroke-width="1.2" />
+    <circle cx="30" cy="33" r="14" fill="#7c3aed" fill-opacity="0.3" stroke="#c084fc" stroke-width="1.5" />
+    <text x="30" y="38" text-anchor="middle" fill="#c084fc" font-size="14">🛡️</text>
+    <text x="56" y="29" class="card-title">Enterprise Copilots</text>
+    <text x="56" y="47" class="card-desc">RAG-Grounded &amp; PII Safe</text>
+  </g>
+
+  <g class="anim-card-3" transform="translate(840, 240)">
+    <rect width="270" height="66" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#06b6d4" stroke-width="1.2" />
+    <circle cx="30" cy="33" r="14" fill="#0891b2" fill-opacity="0.3" stroke="#22d3ee" stroke-width="1.5" />
+    <text x="30" y="38" text-anchor="middle" fill="#22d3ee" font-size="14">🤝</text>
+    <text x="56" y="29" class="card-title">Customer Service Automation</text>
+    <text x="56" y="47" class="card-desc">SaaS Platforms &amp; Open Frameworks</text>
+  </g>
+
+  <!-- FOREGROUND: Hero Title, Subtitle, Category Pills -->
+  <g transform="translate(70, 75)">
+    <!-- Category Pill -->
+    <rect width="290" height="32" rx="16" fill="url(#badge-grad)" stroke="#60a5fa" stroke-opacity="0.5" stroke-width="1" />
+    <circle cx="16" cy="16" r="5" fill="#38bdf8" />
+    <text x="30" y="21" class="badge-text">CURATED ECOSYSTEM • 2026</text>
+
+    <!-- Main Title (Strictly Foreground) -->
+    <text x="0" y="85" class="title">Awesome Generative AI Agents</text>
+    <text x="0" y="130" class="title">&amp; Copilots</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="180" class="subtitle">Autonomous AI Agents, Helpdesk Copilots &amp; Open Frameworks</text>
+    
+    <!-- Tagline & Focus Description -->
+    <text x="0" y="218" class="tagline">Production-grade customer service automation, RAG-grounded architectures,</text>
+    <text x="0" y="242" class="tagline">and self-hosted multi-agent systems for modern engineering &amp; support teams.</text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 268)">
+      <!-- Pill 1 -->
+      <rect width="138" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="14" y="18" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">🤖 Agentic Workflows</text>
+
+      <!-- Pill 2 -->
+      <rect x="148" width="138" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="162" y="18" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">📚 RAG Copilots</text>
+
+      <!-- Pill 3 -->
+      <rect x="296" width="144" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="310" y="18" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">🔒 Enterprise Security</text>
+
+      <!-- Pill 4 -->
+      <rect x="450" width="130" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="464" y="18" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">⭐ Open Source</text>
+    </g>
+  </g>
+</svg>
