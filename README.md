@@ -1,6 +1,6 @@
 # Awesome-Generative-AI-Agent-Copilot
 
-# Top Generative AI Agent & Copilot Ecosystem
+## Top Generative AI Agent & Copilot Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Agentic Customer Service, RAG-Grounded Copilots & Self-Hosted Agent Frameworks*  
