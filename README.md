@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Agent-Copilot/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-Agent-Copilot?style=social&color=white" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Agent-Copilot/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-Agent-Copilot?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Agent-Copilot/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Generative-AI-Agent-Copilot?style=social&color=white" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Agent-Copilot/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -21,7 +21,7 @@
 
 Welcome to the definitive, SEO-optimized repository and landscape guide for **Generative AI Agents, Helpdesk AI Copilots, and Autonomous LLM Frameworks**. As enterprise AI evolves beyond single-prompt chatbots into multi-turn agentic workflows, organizations require reliable solutions for automated ticket resolution, RAG knowledge retrieval, real-time agent assist, and secure enterprise automation.
 
-This curated list benchmarks enterprise **SaaS platforms** against production-grade **open-source AI agent frameworks**, detailing transparent pricing tiers, free trial allowances, company market valuations, and GitHub star counts.
+This curated list benchmarks enterprise **SaaS platforms** against production-grade **open-source AI agent frameworks**, detailing transparent pricing tiers, free trial allowances, company market valuations, and GitHub Stars_Counts.
 
 ---
 
@@ -64,7 +64,7 @@ Enterprise customer support and service-desk copilots providing turnkey integrat
 
 Self-hosted AI agents, open-source copilot platforms, and community-driven customer service automation stacks for complete data sovereignty, zero vendor lock-in, and custom orchestration. Sorted in descending order of GitHub community stars.
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |---------|------------|-------------|
 | **[Dify](https://github.com/langgenius/dify)** | [![Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers) | **Leading open-source LLM application development platform and agent orchestrator.** Features a visual workflow builder combining multi-agent coordination, knowledge retrieval (RAG), tool calling, and human-in-the-loop validation. Ideal for self-hosted or private cloud customer service bots. |
 | **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** | [![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers) | **Autonomous AI development and task execution agent platform** (formerly OpenDevin). Capable of reading code, executing bash commands, browsing the web, and resolving complex technical tickets end-to-end. |
@@ -141,3 +141,12 @@ If you find this curated ecosystem list helpful for your research, company archi
 <p align="center">
   <b>Built with ❤️ for support leaders, AI architects, and developers engineering autonomous customer systems.</b>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Generative-AI-Agent-Copilot&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Generative-AI-Agent-Copilot_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Generative-AI-Agent-Copilot_growth.svg">
+  </picture>
+</a>
