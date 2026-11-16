@@ -15,21 +15,26 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The generative AI customer service and agentic copilot market is estimated at **$12B–$13B in 2025/2026** and projected to surge past **$50B–$80B by the early 2030s** at an annual growth rate (CAGR) exceeding 25%. The sector is **moderately-to-highly fragmented at the application layer**—where specialized agentic startups (e.g., Ada, Forethought, Sierra) actively compete with incumbent CRM platforms (Salesforce, Zendesk, Freshworks)—while remaining concentrated at the underlying foundational model and compute layer.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Intercom Fin](https://www.intercom.com/)** | AI agent that resolves conversations autonomously at **$0.99 per outcome**. Copilot assists human agents with drafting and knowledge retrieval. | Fin outcomes: **$0.99 each**; Essential: **$29/seat/month** (annual) | No permanent free tier; trial available |
-| **[Zendesk Copilot](https://www.zendesk.com/)** | AI assistant within Zendesk that suggests responses, summarizes tickets, and surfaces knowledge. Positioned for existing Zendesk customers. | Quote-only (bundled with Zendesk Suite) | No free tier; trial via sales |
-| **[Salesforce Einstein Copilot](https://www.salesforce.com/)** | AI copilot embedded across Salesforce for sales, service, and marketing. Grounded in CRM data via Einstein Trust Layer. | Quote-only (bundled with Salesforce licensing) | No free tier; demo via sales |
-| **[Ada](https://www.ada.cx/)** | AI-powered customer service automation platform. Automates resolutions across chat, voice, and email with no-code AI agent building. | Quote-only | No free tier; demo via sales |
-| **[Forethought](https://forethought.ai/)** | AI agent for customer support with Solve (auto-resolution) and Triage (routing) products. | Quote-only | No free tier; demo via sales |
-| **[Freshworks AI Copilot](https://www.freshworks.com/)** | AI assistant within Freshworks products for agent assistance and automated responses. | Quote-only (bundled with Freshworks plans) | No free tier; trial via sales |
+| Product | Description | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits |
+|---------|-------------|-----------------------------------|-------------------------|--------------------------|
+| **[Salesforce Einstein Copilot / Agentforce](https://www.salesforce.com/)** | Autonomous agent platform and copilot grounded in CRM data via Einstein Trust Layer for customer service and sales workflows. | **~$180B–$250B market cap** (~$38B–$41B FY revenue) | **$2.00 per conversation** (usage-based) or **$5/user/month** (metered Agentforce user add-on) / **$125/user/month** (unmetered Service Cloud add-on) | **30-day free trial** (pre-configured Service Cloud / Agentforce environment without credit card); also provides continuous free **Agentforce Developer Edition** (active login every 45 days) |
+| **[Zendesk Copilot](https://www.zendesk.com/)** | AI assistant within Zendesk that suggests responses, auto-summarizes tickets, and surfaces internal knowledge. | **$10.2B acquisition valuation** (surpassed $2B ARR) | **$50/agent/month** (billed annually as Advanced AI Copilot add-on, requires Suite Professional at $115/agent/month) | **14-day free trial** (Suite Professional environment with full AI tools evaluation; extendable by 14 days upon request; 6-month trial for qualifying startups) |
+| **[Freshworks AI Copilot](https://www.freshworks.com/)** | Freddy AI assistant embedded across Freshdesk and Freshservice for ticket drafting, summarization, and triage. | **~$3.5B market cap** (~$838M FY2025 revenue) | **$29/agent/month** (billed annually; $35/agent/month billed monthly, add-on for Pro & Enterprise plans) | **14-day free trial** (Pro/Enterprise tier trial with full access to Freddy AI features; no credit card required) |
+| **[Intercom Fin](https://www.intercom.com/)** | Autonomous customer service AI agent resolving conversations and human-agent copilot for ticket assistance. | **$3.6B acquisition valuation** (~$400M ARR; Fin alone at ~$100M ARR) | **$0.99 per resolved outcome** (plus Essential base workspace starting at **$29/seat/month** billed annually) | **14-day free trial** (unlimited Fin AI agent resolution testing during trial period with zero outcome charges; no credit card required) |
+| **[Ada](https://www.ada.cx/)** | Omnichannel enterprise customer service automation platform with no-code agent building across chat, voice, and email. | **$430M acquisition valuation** (peak $1.2B Series C; ~$50M–$70M ARR) | **~$30,000–$35,000/year** starting enterprise contract (~$1.00–$3.50 per resolved interaction over baseline) | No self-serve free trial (guided enterprise sandbox / Proof of Concept available via sales demo for qualifying high-volume teams) |
+| **[Forethought](https://forethought.ai/)** | Support automation suite (Solve, Triage, Assist) utilizing generative AI for ticket routing and autonomous resolution. | **~$115M total venture funding** (acquired by Zendesk in 2026; estimated $20M–$40M ARR) | **~$40,000/year** platform commitment (with usage fees of ~$0.07–$0.12+ per deflected interaction) | No self-serve free trial (structured Proof of Value [POV] sandbox utilizing historical ticket data provided upon sales demo) |
 
 ## Open-Source GitHub Projects
 
